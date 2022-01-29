@@ -1,0 +1,7 @@
+@use './mixins' as *;
+@use './colors' as c;
+
+.wrapper {
+  @include size(100vh);
+  background: c.$bg-primary;
+}
