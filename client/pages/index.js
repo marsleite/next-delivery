@@ -1,6 +1,7 @@
+import { BugIcon } from '@primer/octicons-react'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/pages/Home.module.scss'
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        Home
+        <h7>Home</h7>
+        <BugIcon size="18" />
       </main>
     </div>
   )
