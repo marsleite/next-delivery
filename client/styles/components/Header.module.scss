@@ -1,0 +1,10 @@
+@use '../mixins' as *;
+@use '../colors' as c;
+
+.container {
+  @include flexspaced;
+  @include size(3.5rem);
+
+  border: 1px solid c.$gray-1;
+  padding-inline: 3rem;
+}
